@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>EECS 448:Make Post</title>
+        <link rel="stylesheet" href="CreateUser.css">
+    </head>
+
+    <body>
+        <h1>Make Post</h1>
+        <div class="indexcard">
+            <a href="Index.html">Main Page</a> |
+            <a href="ViewUsers.php">View Users</a> |
+            <a href="CreateUser.html">Create User</a> |
+            <a href="ViewUserPosts.php">View Posts</a>
+        </div>
+        <div class="card">
+            <h2>Make a post</h2>
+            <div class="user">
+                <form action="CreatePost.php" method="post">
+                    Username:
+                        <input type="text" name="username" required><br><br>
+                    Post:
+                        <input style="margin-left:48px" type="text" name="userpost" required><br><br>
+                        <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
